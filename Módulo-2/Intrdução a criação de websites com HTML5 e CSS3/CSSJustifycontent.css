@@ -31,3 +31,18 @@
 .flex-evenly{
     justify-content: space-evenly;
 }
+
+.column{
+    flex-direction: column;
+    min-height: 200px;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
+    min-height: 200px;
+}
+.column-center{
+    flex-direction: column;
+    justify-content: center;
+}
+.colum

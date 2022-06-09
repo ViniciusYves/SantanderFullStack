@@ -1,0 +1,45 @@
+ .flex {
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+}
+
+ .item {
+     background-color: aqua;
+     margin: 5px;
+ }
+
+.flex-container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+}
+
+.flex-item{
+    background: rgb(129, 255, 129);
+    height: 50px;
+    width: 50x;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.column{
+    float: left;
+    flex-direction: column;
+}
+
+.column-reverse{
+    float: right;
+    flex-direction: column-reverse;
+}
+

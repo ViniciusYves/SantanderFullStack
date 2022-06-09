@@ -43,3 +43,23 @@
     flex-direction: column-reverse;
 }
 
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.wrap{
+    flex-wrap: wrap
+}
+
+.orange{
+    background-color: orange;
+}
+
+.grenn{
+    background-color: green;
+}
+
+.blue{
+    background-color: aqua;
+}
+

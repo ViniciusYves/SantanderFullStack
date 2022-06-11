@@ -5,6 +5,35 @@
     max-width: 400px;
 }
 
+.flex-container{
+    max-width: 350px;
+    border: 1 px sold black;
+    display: flex
+}
+
+.item-padrao{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+
+}
+
+.aligne-center{
+    align-items: center;
+}
+
+.aline-stretch{
+    align-items: stretch;
+}
+
+.aline-end{
+    align-items: flex-end
+}
+
+.aline-baseline {
+    align-items: baseline;
+}
 .conteudo-jus{
     background-color:blueviolet;
     margin: 5px;
@@ -45,4 +74,7 @@
     flex-direction: column;
     justify-content: center;
 }
-.colum
+
+.align-itens{
+    align-items: center;
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(49, 49, 49);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(90deg, #084177, #687466, #CD8D7B, #F8C490);
+  background-size: 200% 200%;
+  animation: degrade 12s ease infinite;
+}
+
+@keyframes degrade{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 5px;
+  background:#F8C490;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(122, 122, 122);
+  margin-top: 20px;
+  width: 250px;
+
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: rgb(49, 49, 49);
+}
+
+.form {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    color: black;
+    width: 400px;
+    height: 500px;
+    border-radius: 2%;
+}
+
